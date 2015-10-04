@@ -1,0 +1,14 @@
+#!/bin/sh
+lb config noauto \
+	--apt-http-proxy "http://127.0.0.1:3142/" \
+	--system "live" \
+	--bootappend-live "locales=fr_FR.UTF-8 keyboard-layouts=fr boot=live" \
+	--architectures "amd64" \
+	--binary-images "iso" \
+	--bootloader "syslinux" \
+	--debian-installer "false" \
+	--debian-installer-gui "false" \
+	--distribution "jessie" \
+	--iso-application "demeter"
+
+	"${@}"

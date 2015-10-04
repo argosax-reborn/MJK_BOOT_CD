@@ -1,0 +1,5 @@
+#! /bin/bash
+/etc/init.d/openvpn restart
+service ssh start
+update-rc.d openvpn enable
+update-rc.d ssh enable

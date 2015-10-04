@@ -1,0 +1,42 @@
+# Packages
+adduser gnupg user-setup eject locales console-data console-setup-linux console-common keyboard-configuration iptables iproute net-tools
+
+#xserver
+xorg i3 slim feh i3lock
+
+#terminal
+xterm terminator xcompmgr
+
+# Editor
+nano
+
+# network
+wpasupplicant wireless-tools wicd wicd-curses openvpn
+
+#Authentication and remote
+ssh openssh-server openssl
+
+#Libraries for JTR-MPI
+
+#graphics
+shotwell simple-scan tumbler
+
+##Tools
+nmap tor proxychains aircrack-ng
+
+# archive
+file-roller p7zip-full bzip2 lzma zip
+
+# power
+
+upower acpi
+
+#filesystem
+dosfstools ntfs-3g mtools e2fsprogs
+
+#firmware
+#firmware-b43-installer firmware-b43legacy-installer b43-fwcutter linux-wlan-ng firmware-linux firmware-linux-free firmware-linux-nonfree alsa-firmware-loaders intel-microcode iucode-tool
+
+#admin
+
+sudo gksu live-tools lsb-release gvfs gvfs-bin gvfs-fuse lsof
