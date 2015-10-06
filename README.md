@@ -1,5 +1,8 @@
 # MJK_BOOT_CD
 # 
+
+![](https://github.com/argosax-reborn/ressources/blob/master/72092.png "")
+
 BUILD A BOOTCD TO USE A HOST AS A SLAVE FOR JohnTheRipper on a OpenMPI server.
 
 20 hosts = 20 slaves
